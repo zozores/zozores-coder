@@ -15,6 +15,7 @@ collections:
     folder: content/posts
     create: true
     i18n: true
+    format: toml-frontmatter
     fields:
       - {label: "Draft", name: "draft", widget: "boolean", default: true}
       - {label: "Title", name: "title", widget: "string", required: true}
