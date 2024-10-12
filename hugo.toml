@@ -1,5 +1,4 @@
-baseURL = "http://www.example.com"
-title = "johndoe"
+baseURL = "https://zozores.netlify.app"
 theme = "hugo-coder"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
