@@ -5,6 +5,7 @@ date = "2024-09-26"
 description = "Conheça o Analista Mestre Supremo das Galáxias, o senhor de todos os mirrors de informação e conhecimento do multiverso!"
 tags = ["humor", "causo", "analista", "mestre", "trabalho", "escritório", "TI"]
 categories = ["Causos"]
+toc = true
 +++
 ## Preâmbulo
 

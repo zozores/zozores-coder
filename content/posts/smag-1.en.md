@@ -5,6 +5,7 @@ date = "2024-09-26"
 description = "Meet the Supreme Master Analyst of the Galaxies, the lord of all the information and knowledge mirrors of the multiverse!"
 tags = ["humour", "story", "analyst", "master", "work", "office", "IT"]
 categories = ["Stories"]
+toc = true
 +++
 ## Preamble
 
