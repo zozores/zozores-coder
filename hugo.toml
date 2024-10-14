@@ -76,6 +76,36 @@ theme = "preferred_color_scheme"
 lang = "pt-br"
 loading = "lazy"
 
+[params.csp]
+  childsrc = ["'self'"]
+  fontsrc = [
+    "'self'",
+    "https://fonts.gstatic.com",
+    "https://cdn.jsdelivr.net/",
+    "https://giscus.app"
+  ]
+  formaction = ["'self'"]
+  framesrc = ["'self'"]
+  imgsrc = ["'self'"]
+  objectsrc = ["'none'"]
+  stylesrc = [
+    "'self'",
+    "'unsafe-inline'",
+    "https://fonts.googleapis.com/",
+    "https://cdn.jsdelivr.net/",
+    "https://giscus.app"
+  ]
+  scriptsrc = [
+    "'self'",
+    "'unsafe-inline'",
+    "https://www.google-analytics.com",
+    "https://stats.zozor.es",
+    "https://zozores.goatcounter.com",
+    "https://giscus.app"
+  ]
+  # connect-src directive – defines valid targets for XMLHttpRequest (AJAX), WebSockets or EventSource
+  connectsrc = ["'self'"]
+
 [taxonomies]
 category = "categories"
 series = "series"
