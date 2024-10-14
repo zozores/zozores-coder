@@ -11,4 +11,4 @@ command = "hugo --buildFuture --buildDrafts --baseURL $DEPLOY_PRIME_URL"
 [[headers]]
   for = "/*"
   [headers.values]
-    Content-Security-Policy = "default-src 'self'; frame-ancestors 'https://giscus.app';"
+    Content-Security-Policy = "frame-ancestors 'https://giscus.app';"
