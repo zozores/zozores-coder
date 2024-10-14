@@ -104,10 +104,15 @@ loading = "lazy"
     "https://www.google-analytics.com",
     "https://stats.zozor.es",
     "https://zozores.goatcounter.com",
-    "https://giscus.app"
+    "https://giscus.app",
+    "https://identity.netlify.com",
+    "https://gc.zgo.at"
   ]
   # connect-src directive – defines valid targets for XMLHttpRequest (AJAX), WebSockets or EventSource
-  connectsrc = ["'self'"]
+  connectsrc = [
+    "'self'",
+    "https://stats.zozor.es"
+  ]
 
 [taxonomies]
 category = "categories"
