@@ -8,7 +8,7 @@ HUGO_VERSION = "0.135.0"
 [context.deploy-preview]
 command = "hugo --buildFuture --buildDrafts --baseURL $DEPLOY_PRIME_URL"
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors 'none';"
+# [[headers]]
+#   for = "/*"
+#   [headers.values]
+#     Content-Security-Policy = "frame-ancestors 'none';"
