@@ -79,7 +79,10 @@ scriptURL = "https://stats.zozor.es/script.js"
     "https://cdn.jsdelivr.net/"
   ]
   formaction = ["'self'"]
-  framesrc = [ "'self'" ]
+  framesrc = [ 
+    "'self'",
+    "https://comments.app/"
+  ]
   imgsrc = [
     "'self'",
     "https://zozores.goatcounter.com"
