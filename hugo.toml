@@ -117,9 +117,6 @@ loading = "lazy"
     "https://stats.zozor.es",
     "https://zozores.goatcounter.com"
   ]
-  frameancestors = [
-    "https://giscus.app"
-  ]
 
 [taxonomies]
 category = "categories"
