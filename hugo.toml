@@ -118,7 +118,6 @@ loading = "lazy"
     "https://zozores.goatcounter.com"
   ]
   frameancestors = [
-    "'self'",
     "https://giscus.app"
   ]
 
