@@ -76,14 +76,10 @@ scriptURL = "https://stats.zozor.es/script.js"
   fontsrc = [
     "'self'",
     "https://fonts.gstatic.com",
-    "https://cdn.jsdelivr.net/",
-    "https://utteranc.es/"
+    "https://cdn.jsdelivr.net/"
   ]
   formaction = ["'self'"]
-  framesrc = [
-    "'self'",
-    "https://utteranc.es/"
-  ]
+  framesrc = [ "'self'" ]
   imgsrc = [
     "'self'",
     "https://zozores.goatcounter.com"
@@ -93,8 +89,7 @@ scriptURL = "https://stats.zozor.es/script.js"
     "'self'",
     "'unsafe-inline'",
     "https://fonts.googleapis.com/",
-    "https://cdn.jsdelivr.net/",
-    "https://utteranc.es/"
+    "https://cdn.jsdelivr.net/"
   ]
   scriptsrc = [
     "'self'",
@@ -102,7 +97,7 @@ scriptURL = "https://stats.zozor.es/script.js"
     "https://www.google-analytics.com",
     "https://stats.zozor.es",
     "https://zozores.goatcounter.com",
-    "https://utteranc.es/",
+    "https://comments.app/",
     "https://identity.netlify.com",
     "https://gc.zgo.at"
   ]
