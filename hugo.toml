@@ -89,7 +89,10 @@ loading = "lazy"
     "'self'",
     "https://giscus.app"
   ]
-  imgsrc = ["'self'"]
+  imgsrc = [
+    "'self'",
+    "https://zozores.goatcounter.com"
+  ]
   objectsrc = ["'none'"]
   stylesrc = [
     "'self'",
@@ -111,7 +114,12 @@ loading = "lazy"
   # connect-src directive – defines valid targets for XMLHttpRequest (AJAX), WebSockets or EventSource
   connectsrc = [
     "'self'",
-    "https://stats.zozor.es"
+    "https://stats.zozor.es",
+    "https://zozores.goatcounter.com"
+  ]
+  frameancestors = [
+    "'self'",
+    "https://giscus.app"
   ]
 
 [taxonomies]
