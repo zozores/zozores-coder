@@ -61,6 +61,20 @@ code = "zozores"
 siteID = "5b8de95d-a003-44f0-805e-3b6925053a03"
 scriptURL = "https://stats.zozor.es/script.js"
 
+[params.giscus] # https://giscus.app
+repo = "zozores/zozores-coder"
+repoID = "R_kgDOM_Fr8A"
+category = "General"
+categoryID = "DIC_kwDOM_Fr8M4CjWAt"
+mapping = "title"
+term = ""
+strict = "0"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+theme = "preferred_color_scheme"
+lang = "pt-br"
+loading = "lazy"
 
 [taxonomies]
 category = "categories"
