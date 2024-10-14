@@ -85,7 +85,10 @@ loading = "lazy"
     "https://giscus.app"
   ]
   formaction = ["'self'"]
-  framesrc = ["'self'"]
+  framesrc = [
+    "'self'",
+    "https://giscus.app"
+  ]
   imgsrc = ["'self'"]
   objectsrc = ["'none'"]
   stylesrc = [
