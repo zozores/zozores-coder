@@ -85,7 +85,8 @@ scriptURL = "https://stats.zozor.es/script.js"
   ]
   imgsrc = [
     "'self'",
-    "https://zozores.goatcounter.com"
+    "https://zozores.goatcounter.com",
+    "https://www.gravatar.com"
   ]
   objectsrc = ["'none'"]
   stylesrc = [
