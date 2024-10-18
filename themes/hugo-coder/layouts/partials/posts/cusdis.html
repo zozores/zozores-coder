@@ -10,7 +10,7 @@
                  data-page-title="{{ .Title }}"
                  data-theme="auto">
             </div>
-            {{- if .Site.Language eq "pt-br" -}}
+            {{- if eq .Site.Language.Lang "pt-BR" -}}
             <script defer src="https://cusdis.com/js/widget/lang/pt-BR.js"></script>
             {{- end -}}
             <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
