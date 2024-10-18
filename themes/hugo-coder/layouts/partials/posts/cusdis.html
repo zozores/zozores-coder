@@ -7,8 +7,12 @@
                  data-app-id="{{ .Site.Params.cusdis.data_app_id }}"
                  data-page-id="{{ .File.UniqueID }}"
                  data-page-url="{{ .Permalink }}"
-                 data-page-title="{{ .Title }}">
+                 data-page-title="{{ .Title }}"
+                 data-theme="auto">
             </div>
+            {{- if .Site.Language.Language == "pt-br" -}}
+            <script defer src="https://cusdis.com/js/widget/lang/pt-BR.js"></script>
+            {{- end -}}
             <script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
         </div>
     {{- end -}}
