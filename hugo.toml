@@ -61,15 +61,8 @@ code = "zozores"
 siteID = "5b8de95d-a003-44f0-805e-3b6925053a03"
 scriptURL = "https://stats.zozor.es/script.js"
 
-[params.telegram] # https://comments.app/
-  siteID = "o8-Lo-df"
-  limit = "5"
-  height = "Auto"
-  color = ""
-  dislikes = "1"
-  outlined = ""
-  colorful = ""
-  dark = "1"
+[params.cusdis] # https://cusdis.com
+data_app_id = "c9523285-977b-4d54-bd77-eeaa8111fb87"
 
 [params.csp]
   childsrc = ["'self'"]
@@ -81,7 +74,7 @@ scriptURL = "https://stats.zozor.es/script.js"
   formaction = ["'self'"]
   framesrc = [ 
     "'self'",
-    "https://comments.app/"
+    "https://cusdis.com/"
   ]
   imgsrc = [
     "'self'",
@@ -101,7 +94,7 @@ scriptURL = "https://stats.zozor.es/script.js"
     "https://www.google-analytics.com",
     "https://stats.zozor.es",
     "https://zozores.goatcounter.com",
-    "https://comments.app/",
+    "https://cusdis.com",
     "https://identity.netlify.com",
     "https://gc.zgo.at"
   ]
