@@ -1,7 +1,7 @@
 {{- if isset .Site.Params "cusdis" -}}
     {{- if and (isset .Site.Params.cusdis "data_app_id") (eq (.Params.disableComments | default false) false) -}}
         <div class="comments">
-            <h4>Comments:</h4>
+            <h4>{{ i18n "comments" }}</h4>
             <div id="cusdis_thread"
                  data-host="https://cusdis.com"
                  data-app-id="{{ .Site.Params.cusdis.data_app_id }}"

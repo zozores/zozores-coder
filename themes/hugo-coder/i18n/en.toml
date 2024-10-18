@@ -65,3 +65,6 @@ other = "Link to heading"
 
 [toc]
 other = "Table Of Content"
+
+[comments]
+other = "Comments"
