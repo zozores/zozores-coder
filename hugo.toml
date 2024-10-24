@@ -193,7 +193,7 @@ info = ["Staff Site Reliability Engineer", "Instructor"]
 [[languages.en.menu.main]]
 name = "About"
 weight = 1
-url = "about/"
+url = "pages/about/"
 
 [[languages.en.menu.main]]
 name = "Posts"
@@ -224,7 +224,7 @@ info = ["Staff Site Reliability Engineer", "Instrutor"]
 [[languages.pt-br.menu.main]]
 name = "Sobre"
 weight = 1
-url = "about/"
+url = "pages/about/"
 
 [[languages.pt-br.menu.main]]
 name = "Postagens"
