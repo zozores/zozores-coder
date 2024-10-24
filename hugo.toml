@@ -61,8 +61,11 @@ code = "zozores"
 siteID = "5b8de95d-a003-44f0-805e-3b6925053a03"
 scriptURL = "https://stats.zozor.es/script.js"
 
-[params.cusdis] # https://cusdis.com
-data_app_id = "c9523285-977b-4d54-bd77-eeaa8111fb87"
+[params.utterances]
+  repo = "zozores/zozores-coder" # https://utteranc.es/#heading-repository
+  issueTerm = "title" # https://utteranc.es/#heading-mapping
+  label = "[Blog]" # https://utteranc.es/#heading-issue-label
+  theme = "github-dark" # https://utteranc.es/#heading-theme
 
 [params.csp]
   childsrc = ["'self'"]
@@ -74,13 +77,13 @@ data_app_id = "c9523285-977b-4d54-bd77-eeaa8111fb87"
   formaction = ["'self'"]
   framesrc = [ 
     "'self'",
-    "https://cusdis.com/"
+    "https://utteranc.es"
   ]
   imgsrc = [
     "'self'",
     "https://zozores.goatcounter.com",
     "https://www.gravatar.com",
-    "https://cusdis.com/"
+    "https://utteranc.es"
   ]
   objectsrc = ["'none'"]
   stylesrc = [
@@ -88,7 +91,7 @@ data_app_id = "c9523285-977b-4d54-bd77-eeaa8111fb87"
     "'unsafe-inline'",
     "https://fonts.googleapis.com/",
     "https://cdn.jsdelivr.net/",
-    "https://cusdis.com/"
+    "https://utteranc.es"
   ]
   scriptsrc = [
     "'self'",
@@ -96,7 +99,7 @@ data_app_id = "c9523285-977b-4d54-bd77-eeaa8111fb87"
     "https://www.google-analytics.com",
     "https://stats.zozor.es",
     "https://zozores.goatcounter.com",
-    "https://cusdis.com",
+    "https://utteranc.es",
     "https://identity.netlify.com",
     "https://gc.zgo.at"
   ]
@@ -105,7 +108,7 @@ data_app_id = "c9523285-977b-4d54-bd77-eeaa8111fb87"
     "'self'",
     "https://stats.zozor.es",
     "https://zozores.goatcounter.com",
-    "https://cusdis.com/"
+    "https://utteranc.es"
   ]
 
 [taxonomies]
