@@ -1,4 +1,4 @@
-baseURL = "https://zozor.es"
+baseURL = "https://blog.zozor.es"
 theme = "hugo-coder"
 languageCode = "pt-br"
 defaultContentLanguage = "pt-br"
